@@ -1,2 +1,2 @@
 # w0lf-animation
-w0lf Animation - Animation For Icon
+w0lf Animation - Library Animation For Icon
