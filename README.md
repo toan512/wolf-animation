@@ -5,6 +5,13 @@ w0lf Animation - Library Animation For Icon
 1. Font Glyphicons
 2. Font Awesome
 
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
 ##Getting started
 
 Add w0lf-animation.css to website example :
