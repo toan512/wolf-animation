@@ -1,0 +1,354 @@
+.wolf-spin {
+    /*name keyframes is w-spin*/
+    animation-name: w-spin;
+
+    /*time animation done is 2s*/
+    animation-duration: 2s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:linear;
+
+    /*default pause animation*/
+    animation-play-state:paused;
+
+    -webkit-animation-name: w-spin;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-play-state:paused;
+}
+
+@-webkit-keyframes w-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes w-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+
+
+.wolf-zoom {
+    /*name keyframes is w-spin*/
+    animation-name: w-zoom;
+
+    /*time animation done is 2s*/
+    animation-duration: 1s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:ease-in-out;
+
+    /*default pause animation*/
+    animation-play-state:paused;
+
+    /*repeat*/
+    animation-direction: alternate;
+
+    -webkit-animation-name: w-zoom;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-play-state:paused;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes w-zoom {
+  0% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes w-zoom {
+  0% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+
+
+.wolf-focus-left {
+    /*name keyframes is w-spin*/
+    animation-name: w-focus-left;
+
+    /*time animation done is 2s*/
+    animation-duration: 0.5s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:linear;
+
+    /*default pause animation*/
+    animation-play-state:paused;
+
+    /*repeat*/
+    animation-direction: alternate;
+
+    -webkit-animation-name: w-focus-left;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-play-state:paused;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes w-focus-left {
+  0% {
+    left:0px;
+    left:0px;
+  }
+  100% {
+    left:18px;
+    left:18px;
+  }
+}
+@keyframes w-focus-left {
+  0% {
+    left:0px;
+    left:0px;
+  }
+  100% {
+    left:18px;
+    left:18px;
+  }
+}
+
+
+
+.wolf-focus-right {
+    /*name keyframes is w-spin*/
+    animation-name: w-focus-right;
+
+    /*time animation done is 2s*/
+    animation-duration: 0.5s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:linear;
+
+    /*default pause animation*/
+    animation-play-state:paused;
+
+    /*repeat*/
+    animation-direction: alternate;
+
+    -webkit-animation-name: w-focus-right;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-play-state:paused;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes w-focus-right {
+  0% {
+    right:0px;
+    right:0px;
+  }
+  100% {
+    right:18px;
+    right:18px;
+  }
+}
+@keyframes w-focus-right {
+  0% {
+    right:0px;
+    right:0px;
+  }
+  100% {
+    right:18px;
+    right:18px;
+  }
+}
+
+
+
+.wolf-focus-up {
+    /*name keyframes is w-spin*/
+    animation-name: w-focus-up;
+
+    /*time animation done is 2s*/
+    animation-duration: 0.5s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:linear;
+
+    /*default pause animation*/
+    animation-play-state:paused;
+
+    /*repeat*/
+    animation-direction: alternate;
+
+    -webkit-animation-name: w-focus-up;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-play-state:paused;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes w-focus-up {
+  0% {
+    top:0px;
+    top:0px;
+  }
+  100% {
+    top:18px;
+    top:18px;
+  }
+}
+@keyframes w-focus-up {
+  0% {
+    top:0px;
+    top:0px;
+  }
+  100% {
+    top:18px;
+    top:18px;
+  }
+}
+
+
+
+.wolf-focus-down {
+    /*name keyframes is w-spin*/
+    animation-name: w-focus-down;
+
+    /*time animation done is 2s*/
+    animation-duration: 0.5s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:linear;
+
+    /*default pause animation*/
+    animation-play-state:paused;
+
+    /*repeat*/
+    animation-direction: alternate;
+
+    -webkit-animation-name: w-focus-down;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-play-state:paused;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes w-focus-down {
+  0% {
+    top:0px;
+    top:0px;
+  }
+  100% {
+    top:-18px;
+    top:-18px;
+  }
+}
+@keyframes w-focus-down {
+  0% {
+    top:0px;
+    top:0px;
+  }
+  100% {
+    top:-18px;
+    top:-18px;
+  }
+}
+
+
+.alway-active{
+    /*set play animation*/
+    animation-play-state:running;
+    -webkit-animation-play-state:running;
+}
+
+.hover-active:hover{
+    /*set play animation when hover*/
+    animation-play-state:running;
+    -webkit-animation-play-state:running;
+}
+
+.speed-very-slow{
+    /*time animation done is 2s*/
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+}
+
+.speed-slow{
+    /*time animation done is 2s*/
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+}
+
+.speed-fast{
+    /*time animation done is 2s*/
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+}
+
+.speed-very-fast{
+    /*time animation done is 2s*/
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+}
