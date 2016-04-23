@@ -2,9 +2,9 @@
 w0lf Animation - Library Animation For Icon
 
 **Support Font**
-
 1. Font Glyphicons
 2. Font Awesome
+3. Bootstrap v3.3.6
 
 ##Getting started
 
@@ -14,4 +14,4 @@ Add w0lf-animation.css to website example :
 ##How to use
 
 Add class animation example :
-> <i class="abc"></i>
+> code add css
