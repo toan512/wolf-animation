@@ -71,3 +71,6 @@ a:hover{
 .around.float-left{
     margin-top: 10px;
 }
+.icon-demo{
+    min-height: 45px;
+}

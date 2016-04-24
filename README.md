@@ -4,6 +4,7 @@ Wolf Animation - Library Animation For Icon
 **Support Font**
 
 1. Bootstrap v3.3.6
+2. Font Awesome
 
 
 **Support Browser**
@@ -42,6 +43,8 @@ Example :
 <i class="glyphicon glyphicon-hand-left wolf-animation-demo wolf-focus-left alway-active speed-very-slow"></i>
 ```
 
+Don't forgot donate buy food.
+
 ##List Animation
 
 1. wolf-spin
@@ -59,3 +62,8 @@ Example :
 13. wolf-go-over-left
 14. wolf-go-over-top
 15. wolf-go-over-down
+16. wolf-rubber
+17. wolf-bounce
+18. wolf-go-from-left
+19. wolf-go-from-right
+20. wolf-focus-to-big
