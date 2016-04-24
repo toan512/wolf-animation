@@ -320,6 +320,55 @@
   }
 }
 
+
+.wolf-volume[class*='glyphicon-']::before {
+    /*name keyframes is w-spin*/
+    animation-name: w-volume;
+
+    /*time animation done is 2s*/
+    animation-duration: 0.6s;
+
+    /*delay time when start animation is 0s*/
+    animation-delay: 0s;
+
+    /*loop animation forever*/
+    animation-iteration-count:infinite;
+
+    /*effect animation run with the same speed from start to end*/
+    animation-timing-function:linear;
+
+    /*default pause animation*/
+    /*animation-play-state:paused;*/
+
+    /*repeat*/
+    animation-direction: alternate;
+
+    -webkit-animation-name: w-volume;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    /*-webkit-animation-play-state:paused;*/
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes w-volume {
+  0% {
+    content:'\e037';
+  }
+  100% {
+    content:'\e038';
+  }
+}
+@keyframes w-volume {
+  0% {
+    content:'\e037';
+  }
+  100% {
+    content:'\e038';
+  }
+}
+
 .wolf-setting[class*='glyphicon-']{
   
   -webkit-transform: rotate(45deg);
