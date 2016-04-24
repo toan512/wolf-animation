@@ -4,7 +4,6 @@ Wolf Animation - Library Animation For Icon
 **Support Font**
 
 1. Font Glyphicons
-2. Font Awesome
 3. Bootstrap v3.3.6
 
 
