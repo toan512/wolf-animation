@@ -1,5 +1,5 @@
-# w0lf-animation
-w0lf Animation - Library Animation For Icon
+# Wolf-animation
+Wolf Animation - Library Animation For Icon
 
 **Support Font**
 
@@ -15,7 +15,7 @@ w0lf Animation - Library Animation For Icon
 
 ##Getting started
 
-Add w0lf-animation.css to website example :
+Add Wolf-animation.css to website example :
 > test.css
 
 ##How to use
