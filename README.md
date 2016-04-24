@@ -10,6 +10,7 @@ Wolf Animation - Library Animation For Icon
 
 1. Moliza Firefox
 2. Google Chrome
+3. Safari
 
 ##Getting started
 
