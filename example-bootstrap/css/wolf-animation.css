@@ -1081,6 +1081,183 @@
   }
 }
 
+.wolf-go-over-left{
+  /*name keyframes is w-spin*/
+  animation-name: w-go-over-left;
+
+  /*time animation done is 2s*/
+  animation-duration: 1.5s;
+
+  /*delay time when start animation is 0s*/
+  animation-delay: 0s;
+
+  /*loop animation forever*/
+  animation-iteration-count:infinite;
+
+  /*effect animation run with the same speed from start to end*/
+  animation-timing-function:linear;
+
+  /*default pause animation*/
+  animation-play-state:paused;
+
+  /*repeat*/
+  animation-direction: normal;
+
+  -webkit-animation-name: w-go-over-left;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-play-state:paused;
+  -webkit-animation-direction: normal;
+}
+@keyframes w-go-over-left {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes w-go-over-left {
+  0% {
+    -webkit-transform: translateX(50%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateX(0%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+
+.wolf-go-over-top{
+  /*name keyframes is w-spin*/
+  animation-name: w-go-over-top;
+
+  /*time animation done is 2s*/
+  animation-duration: 1.5s;
+
+  /*delay time when start animation is 0s*/
+  animation-delay: 0s;
+
+  /*loop animation forever*/
+  animation-iteration-count:infinite;
+
+  /*effect animation run with the same speed from start to end*/
+  animation-timing-function:linear;
+
+  /*default pause animation*/
+  animation-play-state:paused;
+
+  /*repeat*/
+  animation-direction: normal;
+
+  -webkit-animation-name: w-go-over-top;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-play-state:paused;
+  -webkit-animation-direction: normal;
+}
+@keyframes w-go-over-top {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes w-go-over-top {
+  0% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-50%);
+    opacity: 0;
+  }
+}
+
+.wolf-go-over-down{
+  /*name keyframes is w-spin*/
+  animation-name: w-go-over-down;
+
+  /*time animation done is 2s*/
+  animation-duration: 1.5s;
+
+  /*delay time when start animation is 0s*/
+  animation-delay: 0s;
+
+  /*loop animation forever*/
+  animation-iteration-count:infinite;
+
+  /*effect animation run with the same speed from start to end*/
+  animation-timing-function:linear;
+
+  /*default pause animation*/
+  animation-play-state:paused;
+
+  /*repeat*/
+  animation-direction: normal;
+
+  -webkit-animation-name: w-go-over-down;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-play-state:paused;
+  -webkit-animation-direction: normal;
+}
+@keyframes w-go-over-down {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes w-go-over-down {
+  0% {
+    -webkit-transform: translateY(-50%);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(50%);
+    opacity: 0;
+  }
+}
+
 
 .alway-active,.alway-active[class*='glyphicon-']{
     /*set play animation*/

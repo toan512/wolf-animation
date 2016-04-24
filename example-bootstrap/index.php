@@ -230,6 +230,36 @@
 				</div>
 			</div>
 
+			<!-- go over left animation class -->
+			<div class="around float-left">
+				<div class="icon-demo text-center">
+					<i class="glyphicon glyphicon-chevron-left wolf-animation-demo alway-active wolf-go-over-left"></i>
+				</div>
+				<div class="sub-icon">
+					<div class="code">&#x3C;<span class="div-color">div </span><span class="class-color">class</span>=&#x22;<span class="class-name-color">wolf-go-over-left</span>&#x22;&#x3E;&#x3C;/<span class="div-color">div</span>&#x3E;</div>
+				</div>
+			</div>
+
+			<!-- go over top animation class -->
+			<div class="around float-left">
+				<div class="icon-demo text-center">
+					<i class="glyphicon glyphicon-plane wolf-animation-demo alway-active wolf-go-over-top"></i>
+				</div>
+				<div class="sub-icon">
+					<div class="code">&#x3C;<span class="div-color">div </span><span class="class-color">class</span>=&#x22;<span class="class-name-color">wolf-go-over-top</span>&#x22;&#x3E;&#x3C;/<span class="div-color">div</span>&#x3E;</div>
+				</div>
+			</div>
+
+			<!-- go over down animation class -->
+			<div class="around float-left">
+				<div class="icon-demo text-center">
+					<i class="glyphicon glyphicon-arrow-down wolf-animation-demo alway-active wolf-go-over-down"></i>
+				</div>
+				<div class="sub-icon">
+					<div class="code">&#x3C;<span class="div-color">div </span><span class="class-color">class</span>=&#x22;<span class="class-name-color">wolf-go-over-down</span>&#x22;&#x3E;&#x3C;/<span class="div-color">div</span>&#x3E;</div>
+				</div>
+			</div>
+
 		</section>	
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
