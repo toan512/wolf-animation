@@ -1516,7 +1516,7 @@
   }
 }
 
-@-webkit-keyframes w-ring-ring {
+@-o-keyframes w-ring-ring {
   0% {
     -o-transform: rotate(-15deg);
   }
