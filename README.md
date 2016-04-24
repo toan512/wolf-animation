@@ -15,22 +15,30 @@ Wolf Animation - Library Animation For Icon
 
 Add Wolf-animation.css below all css to website
 Example :
-> <link href="css/wolf-animation.css?v=1.0" rel="stylesheet">
+```
+<link href="css/wolf-animation.css?v=1.0" rel="stylesheet">
+```
 
 ##How to use
 
 Add class animation u want on class font
 Example :
-> <i class="glyphicon glyphicon-hand-left wolf-focus-left"></i>
+```
+<i class="glyphicon glyphicon-hand-left wolf-focus-left"></i>
+```
 
 **Remember Add Class Active Animation**
 Have 2 Active Class ( alway-active, hover-active)
 Example :
-> <i class="glyphicon glyphicon-hand-left wolf-focus-left alway-active"></i>
+```
+<i class="glyphicon glyphicon-hand-left wolf-focus-left alway-active"></i>
+```
 
 U can setting speed (class speed-very-slow, speed-slow, speed-fast, speed-very-fast )
 Example :
-> <i class="glyphicon glyphicon-hand-left wolf-animation-demo wolf-focus-left alway-active speed-very-slow"></i>
+```
+<i class="glyphicon glyphicon-hand-left wolf-animation-demo wolf-focus-left alway-active speed-very-slow"></i>
+```
 
 ##List Animation
 
