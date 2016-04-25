@@ -2696,7 +2696,7 @@
 
   0% {
     opacity: 0;
-    transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
   }
 
   60% {
@@ -2723,7 +2723,7 @@
 
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-3000px, 0, 0);
+    -webkit-transform: translate3d(-100px, 0, 0);
   }
 
   60% {
@@ -2750,7 +2750,7 @@
 
   0% {
     opacity: 0;
-    -moz-transform: translate3d(-3000px, 0, 0);
+    -moz-transform: translate3d(-100px, 0, 0);
   }
 
   60% {
@@ -2778,7 +2778,7 @@
 
   0% {
     opacity: 0;
-    -o-transform: translate3d(-3000px, 0, 0);
+    -o-transform: translate3d(-100px, 0, 0);
   }
 
   60% {
@@ -2847,12 +2847,12 @@
 }
 @keyframes w-go-from-right {
   from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(1.000, 0.355, 0.610, 0.215);
   }
 
   0% {
     opacity: 0;
-    transform: translate3d(3000px, 0, 0);
+    transform: translate3d(100px, 0, 0);
   }
 
   60% {
@@ -2874,12 +2874,12 @@
 }
 @-webkit-keyframes w-go-from-right {
   from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation-timing-function: cubic-bezier(1.000, 0.355, 0.610, 0.215);
   }
 
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
+    -webkit-transform: translate3d(100px, 0, 0);
   }
 
   60% {
@@ -2901,12 +2901,12 @@
 }
 @-moz-keyframes w-go-from-right {
   from, 60%, 75%, 90%, to {
-    -moz-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -moz-animation-timing-function: cubic-bezier(1.000, 0.355, 0.610, 0.215);
   }
 
   0% {
     opacity: 0;
-    -moz-transform: translate3d(3000px, 0, 0);
+    -moz-transform: translate3d(100px, 0, 0);
   }
 
   60% {
@@ -2929,12 +2929,12 @@
 
 @-o-keyframes w-go-from-right {
   from, 60%, 75%, 90%, to {
-    -o-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -o-animation-timing-function: cubic-bezier(1.000, 0.355, 0.610, 0.215);
   }
 
   0% {
     opacity: 0;
-    -o-transform: translate3d(3000px, 0, 0);
+    -o-transform: translate3d(100px, 0, 0);
   }
 
   60% {
