@@ -55,7 +55,7 @@ Example :
 7. wolf-volume
 8. wolf-setting
 9. wolf-ring-ring
-10. wolf-flas
+10. wolf-flash
 11. wolf-surprise
 12. wolf-go-over-right
 13. wolf-go-over-left

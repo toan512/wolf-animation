@@ -1721,7 +1721,7 @@
 }
 
 
-.wolf-flash[class*='glyphicon-']{
+.wolf-flash{
   /*name keyframes is w-spin*/
   animation-name: w-flash;
 
@@ -1805,7 +1805,7 @@
   }
 }
 
-.wolf-surprise[class*='glyphicon-']{
+.wolf-surprise{
   /*name keyframes is w-spin*/
   animation-name: w-surprise;
 
