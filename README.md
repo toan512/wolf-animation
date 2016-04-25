@@ -44,8 +44,6 @@ Example :
 <i class="glyphicon glyphicon-hand-left wolf-animation-demo wolf-focus-left alway-active speed-very-slow"></i>
 ```
 
-Don't forgot donate buy food.
-
 ##List Animation
 
 1. wolf-spin
